@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&family=Ubuntu+Mono:ital@1&display=swap');
+@import url('assets/img/bg.jpg');
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 0px 12px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.container{
+    min-height: 72vh;
+    color: white;
+    font-family: 'Ubuntu Mono', monospace;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('assets/img/bg.jpg');
+    background-size: 100% 100%;
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#myProgressBar{
+    width: 80vw;
+    
+}
+
+.icons{
+    display: flex;
+    margin-top: 14px;
+}
+
+.icons i{
+    cursor: pointer;
+}
